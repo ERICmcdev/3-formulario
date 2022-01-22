@@ -1,0 +1,222 @@
+#container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/src/images/planetsImage.jpg);
+    background-size: 100%;
+    background-position: center;
+    font-family: "Roboto Mono", monospace;
+}
+
+.image-logo-box {
+    width: 40%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    background-image: linear-gradient(rgb(22, 13, 66) 50%, rgba(31, 27, 99, 0.493));
+    color: #cee7cc;
+    font-size: 1.3rem;
+    text-align: center;
+    font-weight: 600;
+    box-shadow: 0px 7px 18px -3px #ffffff;
+}
+
+.capitalize::first-letter{
+    text-transform: capitalize;
+}
+
+.image-interactive {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.image-interactive > img {
+    width: 60px;
+    transform: translateY(20px);
+    /* display: ; */
+}
+
+.planet-ufo{
+    width: 20%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-image: url(/src/images/planetMars.jpeg);
+    background-size: 100%;
+    background-position: center;
+    box-shadow: 0px 1px 10px -2px #ffffff98;
+}
+
+.mancha{
+    width: 20%;
+    height: 20%;
+    background-color: #3e533c;
+}
+
+.mancha1{
+    transform: translateY(25px) translateX(-10px);
+    border-radius: 50%;
+}
+
+.mancha2{
+    transform: translateY(34px) translateX(20px);
+    border-radius: 50%;
+}
+
+.mancha3{
+    transform: translateY(20px);
+    border-radius: 50%;
+}
+
+.form-wrapper {
+    width: 25%;
+    height: 80%;
+    background-color: #ff532896;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    color: #0a0a38;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+    box-shadow: 0px 7px 18px -2px #ffffff;
+}
+
+form {
+    width: 80%;
+    height: 60%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.button-alternate {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 20px 0 0;
+}
+
+.button-alternate > button{
+    width: 70px;
+    height: 80%;
+    border: none;
+    outline: none;
+    text-align: center;
+    background-color: #0a0a38;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+#button-sign-in {
+    width: 70px;
+    height: 80%;
+    background-color: #0a0a38;  
+    border-radius: 0 0 50px 0;
+    color: #ffffff;
+    font-size: 0.8rem;
+    text-decoration: none;
+    padding: 5px 0 0 0;
+}
+
+#button-sign-in:hover {
+    border-radius: 0 0 50px 0;
+    transition-duration: 0.2s;
+    background-color: #0a0a3879;
+}
+
+#button-sign-up {
+    width: 70px;
+    height: 80%;
+    background-color: #0a0a38;
+    border-radius: 0 0 0 50px;
+    color: #ffffff;
+    font-size: 0.8rem;
+    text-decoration: none;
+    padding: 5px 0 0 0;
+}
+
+#button-sign-up:hover {
+    border-radius: 0 0 0 50px;
+    transition-duration: 0.2s;
+    background-color: #0a0a3886;
+}
+
+.field-box {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    border-bottom: 3px solid #0a0a38;
+    outline: none;
+    background-color: #ffffff04;
+    font-size: 16px;
+}
+
+.field-box > input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    color: #0a0a38;
+    outline: none;
+    background-color: #ffffff04;
+    font-size: 16px;
+}
+
+.field-box > label {
+    margin: 0 0 5px 0;
+}
+
+.align-input {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff04;
+}
+
+.align-input > input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    color: #0a0a38;
+    outline: none;
+    background-color: #ffffff04;
+    font-size: 16px;
+}
+
+.align-input-checkbox {
+    margin: 0 0 20px 0;
+}
+
+.button-login {
+    padding: 10px;
+    background-color: #0a0a38;
+    border-radius: 50px;
+    border: none;
+    color: #ffffff;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.button-login:hover {
+    transition-duration: 0.3s;
+    background-color: #0a0a388a;
+}
