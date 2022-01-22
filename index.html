@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/styles/reset.css">
+    <link rel="stylesheet" href="./src/styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap"
+        rel="stylesheet">
+    <title>2-form</title>
+</head>
+
+<body>
+    <main id="container">
+        <header class="image-logo-box">
+            <div class="logo capitalize">lorem logo</div>
+            <span class="capitalize">be part of our awesome team and have fun with us</span>
+            <div class="image-interactive">
+                <img src="./src/images/ufo.png" alt="ufo image">
+                <div class="planet-ufo"></div>
+            </div>
+        </header>
+        <div class="form-wrapper">
+            <div class="button-alternate">
+                <a href="./register.html" id="button-sign-up" class="cursor-pointer capitalize" type="button">sign up</a>
+                <a href="./register.html" id="button-sign-in" class="cursor-pointer capitalize" type="button">sign in</a>
+            </div>
+            <form action="">
+                <div class="field-box">
+                    <label for="email-login " class="capitalize">email</label>
+                    <input type="email" id="email-login" required>
+                </div>
+                <div class="field-box">
+                    <label for="password-login" class="capitalize">password</label>
+                    <div class="align-input">
+                        <input type="password" id="input-password-login" minlength="4" required>
+                        <img src="/src/images/visibility.png" class="cursor-pointer" alt="view and not view"
+                            id="view-password-login-image">
+                    </div>
+                </div>
+                <div class="align-input-checkbox">
+                    <input type="checkbox" name="checkbox-login" id="checkbox-login">
+                    <label for="checkbox-login" class="capitalize">remember my password.</label>
+                </div>
+                    <a href="recoverPassword.html" class="capitalize">recover password.</a>
+                <button class="cursor-pointer button-login capitalize" name="button-login-name" id="button-login-id">sign
+                    up</button>
+            </form>
+        </div>
+    </main>
+    <script src="src/scripts/scriptsLogin.js"></script>
+</body>
+
+</html>
